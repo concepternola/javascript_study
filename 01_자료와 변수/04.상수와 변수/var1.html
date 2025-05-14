@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+   </head>
+   <body>
+      <script>
+         var num = 1
+         num = 3
+         console.log(num) // 변수에 값 재할당(덮어쓰기기)
+         var num = 2 //같은 변수를 써도 상관이 없음
+         console.log(num)
+
+         let num2 = 2
+         num2 = 3 // 변수에 값 재할당(덮어쓰기)
+         console.log(num2)
+
+         // let : 같은 변수명 정의 불가능, 변수에 값 재할당 가능
+         //  let num2 = 4 // 같은 변수명 사용 (새롭게 선언)
+         //  console.log(num2)
+
+         const num3 = 3
+         num3 = 3 // 재할당 불가능 (이미 const 가 상수기 때문에)
+         console.log(num3)
+      </script>
+   </body>
+</html>
